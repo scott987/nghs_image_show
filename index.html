@@ -1,44 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>JS Image Slideshow Demo</title>
-    <link rel="stylesheet" href="./css/slideshow.css">
-    <script src="./js/slideshow.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
-        #slide {
-            width: 99vw;
-            height: 98vh;
-        }
-        #text {
-            position: absolute;
-            z-index: 10;
-            bottom: 2vh;
-            right: 1vw;
-            font-size:2.5em;
-            color: white;
-            font-family: 'Noto Sans TC', sans-serif;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-<div id="slide"></div>
-<div id="text"></div>
-<script>
-    var imagePaths = ['images/brighton.jpg', 'images/new_forest.jpg', 'images/zhangye_national_geopark.jpg'];
-    var text=['test', 'testtest', 'testtest']
-    var slideshowOptions = {
-        interval: 3000,
-        transition: 'fadeIn',
-        control: false,
-        background: true,
-        showtext: true,
-        textcontainer: document.getElementById('text'),
-        text: text
-    };
-    new Slideshow(document.getElementById('slide'), imagePaths, slideshowOptions);
-</script>
+    <ol>
+        <li><a href="./slideshow.html?t=課程領導">課程領導</a></li>
+        <li><a href="./slideshow.html?t=課程評鑑">課程評鑑</a></li>
+        <li><a href="./slideshow.html?t=課程實施">課程實施</a></li>
+        <li><a href="./slideshow.html?t=課程評鑑">課程評鑑</a></li>
+        <li><a href="./slideshow.html?t=學校特色">學校特色</a></li>
+    </ol>
 </body>
 </html>

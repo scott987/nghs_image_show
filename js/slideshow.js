@@ -104,9 +104,7 @@ function Slideshow(container, imagesPaths, options) {
             }
             this.textContainer.appendChild(content);
             this.text.push(content);
-            console.log(content)
         }
-        console.log(this.text)
 
     }
 
